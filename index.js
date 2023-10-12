@@ -6,9 +6,9 @@ const middlewares = jsonServer.defaults();
 
 app.db = router.db;
 
-server.use(middlewares);
-server.use(auth);
-server.use(router);
-server.listen(3000, () => {
+app.use(middlewares);
+app.use(auth);
+app.use(router);
+app.listen(3000, () => {
   console.log('JSON Server is running');
 });
