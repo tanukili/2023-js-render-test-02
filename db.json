@@ -1,3 +1,27 @@
 {
-  "users": []
+  "users": [],
+  "customerService": [
+    {
+      "user": {
+        "email": "test@gmail.com",
+        "name": "Json"
+      },
+      "messages": [
+        {
+          "text": "想請教有沒有皮拉提斯的課程？",
+          "timeUnix": "",
+          "timeStr": "",
+          "role": "user"
+        },
+        {
+          "text": "目前沒有相關課程，但有在規劃中喔！",
+          "timeUnix": "",
+          "timeStr": "",
+          "role": "admin"
+        }
+      ],
+      "id": "123456",
+      "needReply": false
+    }
+  ]
 }
